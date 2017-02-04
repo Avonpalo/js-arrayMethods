@@ -13,7 +13,10 @@
 /*1. Mr. Bonner (aka the Red Rocket, the Red Mamba) doesn't belong in this class of Hall Of Famers. Remove this imposter immediately and assign it to a new variable named `notHof` Console.log this new variable as well as the original list.*/ 
 
 var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
-
+console.log (hof);
+var notHof = "Bonner";
+hof.pop ();
+console.log (hof);
 
 
 /* The array.push() adds one or more element to the end of an array and returns the new length of the array*/
@@ -21,7 +24,8 @@ var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
 /*2. You've been tasked to do this week's grocery shopping. As you arrive at Times Supermarket, Kanye pings you to get a bottle of Hendricks gin. Add this to the existing shoppingList and console.log it.*/
 
 var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut butter oreos", "fruit loops cereal"];
-
+shoppingList.push("bottle of Hendricks gin");
+console.log (shoppingList);
 
 
 
