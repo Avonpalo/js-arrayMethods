@@ -34,6 +34,8 @@ console.log (shoppingList);
 /*3. Use the force, or in this case the reverse method to help Yoda make some sense with his motivational talk to the young Jedi interns.*/
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
+yoda.reverse();
+console.log (yoda);
 
 
 
@@ -42,7 +44,9 @@ var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
 /*4. People been lining up for hours to get the newest iphone release. Help manage the unruly crowd of privileged customers by serving them one at a time and assiging it to a variable named `nowServing`. Console.log this new variable as well as the waitList.*/
 
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
-
+waitList.shift();
+var nowServing = waitList;
+console.log (waitList);
 
 
 /*The array.unshift() adds one or more elements to the front of an array and returns the new length of the array*/
