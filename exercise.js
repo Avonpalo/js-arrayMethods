@@ -13,6 +13,12 @@
 /*1. Mr. Bonner (aka the Red Rocket, the Red Mamba) doesn't belong in this class of Hall Of Famers. Remove this imposter immediately and assign it to a new variable named `notHof` Console.log this new variable as well as the original list.*/ 
 
 var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
+var notHof = "Bonner";
+hof.pop();
+console.log(hof);
+
+/*
+var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
 console.log (hof);
 var notHof = "Bonner";
 hof.pop ();
@@ -25,6 +31,11 @@ console.log (hof);
 
 var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut butter oreos", "fruit loops cereal"];
 shoppingList.push("bottle of Hendricks gin");
+console.log(shoppingList);
+
+/*
+var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut butter oreos", "fruit loops cereal"];
+shoppingList.push("bottle of Hendricks gin");
 console.log (shoppingList);
 
 
@@ -35,6 +46,11 @@ console.log (shoppingList);
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
 yoda.reverse();
+console.log(yoda);
+
+/*
+var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
+yoda.reverse();
 console.log (yoda);
 
 
@@ -43,6 +59,13 @@ console.log (yoda);
 
 /*4. People been lining up for hours to get the newest iphone release. Help manage the unruly crowd of privileged customers by serving them one at a time and assiging it to a variable named `nowServing`. Console.log this new variable as well as the waitList.*/
 
+var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
+console.log(waitList);
+waitList.shift();
+var nowServing = waitList;
+console.log(nowServing);
+
+/*
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
 waitList.shift();
 var nowServing = waitList;
@@ -56,12 +79,21 @@ console.log (waitList);
 waitList.unshift("Kanye");
 console.log(waitList);
 
+/*
+waitList.unshift("Kanye");
+console.log(waitList);
+
 
 /*The array.splice() adds and/or removes elements from an array.
 array.splice(index, how many items to be removed)*/
 
 /*6. As head of McDonald's New Product Division, your job is to test and approve all new menu items. In the testMenu array below, all the items are approved except for "McLinguine" and "McChar-Siu Bau". Remove these items from the list and console.log the updated testMenu.*/
 
+var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau", "McChop-Chae", "McPancit"];
+testMenu.splice(2, 2);
+console.log(testMenu);
+
+/*
 var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau", "McChop-Chae", "McPancit"];
 testMenu.splice(2, 2);
 console.log(testMenu);
@@ -81,6 +113,12 @@ var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 var oneLove = westSide.concat(eastSide);
 console.log(oneLove);
 
+/*
+var westSide = ["Dre", "2Pac", "Snoop"];
+var eastSide = ["Biggie", "Diddy", "Craig Mack"];
+var oneLove = westSide.concat(eastSide);
+console.log(oneLove);
+
 
 
 /*The array.join() joins all the elements of an array into a string.*/
@@ -91,10 +129,15 @@ var shoe = ["just", "do", "it"];
 var shoeString = shoe.join();
 console.log(shoeString);
 
+/*
+var shoe = ["just", "do", "it"];
+var shoeString = shoe.join();
+console.log(shoeString);
+
 
 
 /*The array.slice() extracts a section of an array and returns a new array.
-array.slice(index start, index end)*/
+array.slice(index start, index end and ends at, but does not include, the given end argument.)*/
 
 /*9. Some drama between you and the Kardashian's went down during last Saturday's potluck party. You are no longer on speaking terms and need to unfriend the following from your facebook:
 "Yeezy", "Kimmy K" and "Lamar Odom". Unfriend these ungrateful people and assign them to a new variable named `unFriend`. Console.log this new variable.*/
@@ -104,6 +147,12 @@ fbFriends.splice(1, 3);
 var unFriend = fbFriends;
 console.log(unFriend);
 
+/*
+var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
+fbFriends.splice(1, 3);
+var unFriend = fbFriends;
+console.log(unFriend);
+*/
 
 
 
